@@ -38,11 +38,11 @@
 
         default_layer {
             bindings = <
-&kp EQUAL         &kp N1     &kp N2      &kp N3        &kp N4        &kp N5  &tog 1                                                                   &mo 3        &kp N6  &kp N7         &kp N8         &kp N9    &kp N0         &kp MINUS
-&kp TAB           &kp Q      &kp W       &kp F         &kp P         &kp B   &none                                                                    &none        &kp J   &kp L          &kp U          &kp Y     &kp SEMICOLON  &kp BSLH
-&mt LCTRL ESCAPE  &kp A      &kp R       &kp S         &kp T         &kp G   &none     &kp LCTRL         &kp LALT          &kp LGUI   &kp RCTRL       &none        &kp M   &kp N          &kp E          &kp I     &kp O          &mt RCTRL SQT
-&kp LSHFT         &kp Z      &kp X       &kp C         &kp D         &kp V                               &kp HOME          &kp PG_UP                               &kp K   &kp H          &kp COMMA      &kp DOT   &kp FSLH       &kp RSHFT
-&mo 2             &kp GRAVE  &caps_word  &kp LEFT_ALT  &kp LEFT_GUI          &kp BSPC  &mt LCTRL ESCAPE  &kp LEFT_GUI      &kp PG_DN  &mt LGUI ENTER  &lt 5 SPACE          &kp RIGHT_GUI  &kp RIGHT_ALT  &kp LBKT  &kp RBKT       &mo 2
+&kp EQUAL         &kp N1     &kp N2      &kp N3        &kp N4        &kp N5  &tog 1                                                                          &mo 3      &kp N6  &kp N7         &kp N8         &kp N9    &kp N0         &kp MINUS
+&kp TAB           &kp Q      &kp W       &kp F         &kp P         &kp B   &none                                                                           &none      &kp J   &kp L          &kp U          &kp Y     &kp SEMICOLON  &kp BSLH
+&mt LCTRL ESCAPE  &kp A      &kp R       &kp S         &kp T         &kp G   &none     &kp LEFT_GUI      &kp LALT          &kp RIGHT_ALT  &kp RIGHT_COMMAND  &none      &kp M   &kp N          &kp E          &kp I     &kp O          &kp ENTER
+&kp LSHFT         &kp Z      &kp X       &kp C         &kp D         &kp V                               &kp HOME          &kp PG_UP                                    &kp K   &kp H          &kp COMMA      &kp DOT   &kp FSLH       &kp RSHFT
+&mo 2             &kp GRAVE  &caps_word  &kp LEFT_ALT  &kp LEFT_GUI          &kp BSPC  &mt LCTRL ESCAPE  &kp LEFT_GUI      &kp PG_DN      &lt 5 ENTER        &kp SPACE          &kp RIGHT_GUI  &kp RIGHT_ALT  &kp LBKT  &kp RBKT       &mo 2
             >;
         };
 
