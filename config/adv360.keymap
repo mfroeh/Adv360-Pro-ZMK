@@ -90,7 +90,7 @@
             bindings = <
 &trans           &kp GRAVE       &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp SEMICOLON     &kp COMMA     &trans                                      &trans  &trans  &trans    &trans    &trans  &trans     &trans
 &kp EXCLAMATION  &kp LEFT_BRACE  &kp SQT               &kp DOUBLE_QUOTES      &kp RIGHT_BRACE   &kp QUESTION  &trans                                      &trans  &trans  &trans    &trans    &trans  &trans     &trans
-&kp HASH         &kp CARET       &kp EQUAL             &kp UNDER              &kp DOLLAR        &kp ASTRK     &trans  &trans  &trans      &trans  &trans  &trans  &trans  &kp LEFT  &kp DOWN  &kp UP  &kp RIGHT  &trans
+&kp HASH         &kp CARET       &kp EQUAL             &kp UNDER              &kp DOLLAR        &kp ASTRK     &trans  &trans  &trans      &trans  &trans  &trans  &kp LEFT  &kp DOWN  &kp UP  &kp RIGHT &kp SEMICOLON &trans
 &kp AT_SIGN      &kp LESS_THAN   &kp PIPE              &kp MINUS              &kp GREATER_THAN  &kp FSLH                      &trans      &trans                  &trans  &trans    &trans    &trans  &trans     &trans
 &trans           &trans          &trans                &trans                 &trans                          &trans  &trans  &trans      &trans  &trans  &trans          &trans    &trans    &trans  &trans     &trans
             >;
