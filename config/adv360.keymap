@@ -10,7 +10,7 @@
       #include "version.dtsi"
       #ifndef VERSION_MACRO
 
-      macro_ver: macro_ver {
+        macro_ver: macro_ver {
             compatible = "zmk,behavior-macro";
             label = "macro_version";
             #binding-cells = <0>;
@@ -56,11 +56,11 @@
 
         default_layer {
             bindings = <
-&kp EQUAL         &kp N1     &kp N2      &kp N3    &kp N4     &kp N5  &tog 1                                                                   &mo 3      &kp N6  &kp N7  &kp N8     &kp N9    &kp N0         &kp MINUS
-&kp TAB           &kp Q      &kp W       &kp F     &kp P      &kp B   &none                                                                    &none      &kp J   &kp L   &kp U      &kp Y     &kp SEMICOLON  &kp BSLH
-&mt LCTRL ESCAPE  &kp A      &kp R       &kp S     &kp T      &kp G   &none     &kp LCTRL         &kp LALT          &kp LGUI   &kp RCTRL       &none      &kp M   &kp N   &kp E      &kp I     &kp O          &mt RCTRL SQT
-&kp LSHFT         &kp Z      &kp X       &kp C     &kp D      &kp V                               &kp HOME          &kp PG_UP                             &kp K   &kp H   &kp COMMA  &kp DOT   &kp FSLH       &kp RSHFT
-&mo 2             &kp GRAVE  &caps_word  &kp LEFT  &kp RIGHT          &kp BSPC  &mt LCTRL ESCAPE  &kp LEFT_GUI      &kp PG_DN  &mt LGUI ENTER  &kp SPACE          &kp UP  &kp DOWN   &kp LBKT  &kp RBKT       &mo 2
+&kp EQUAL         &kp N1           &kp N2           &kp N3               &kp N4             &kp N5  &tog 1                                                                   &mo 3      &kp N6  &kp N7              &kp N8                &kp N9            &kp N0            &kp MINUS
+&kp TAB           &kp Q            &kp W            &kp F                &kp P              &kp B   &none                                                                    &none      &kp J   &kp L               &kp U                 &kp Y             &kp SEMICOLON     &kp BSLH
+&mt LCTRL ESCAPE  &hml LEFT_ALT A  &hml LEFT_GUI R  &hml LEFT_CONTROL S  &hml LEFT_SHIFT T  &kp G   &none     &kp LCTRL         &kp LALT          &kp LGUI   &kp RCTRL       &none      &kp M   &hmr RIGHT_SHIFT N  &hmr RIGHT_CONTROL E  &hmr RIGHT_GUI I  &hmr RIGHT_ALT O  &mt RCTRL SQT
+&kp LSHFT         &kp Z            &kp X            &kp C                &kp D              &kp V                               &kp HOME          &kp PG_UP                             &kp K   &kp H               &kp COMMA             &kp DOT           &kp FSLH          &kp RSHFT
+&mo 2             &kp GRAVE        &caps_word       &kp LEFT             &kp RIGHT                  &kp BSPC  &mt LCTRL ESCAPE  &kp LEFT_GUI      &kp PG_DN  &mt LGUI ENTER  &kp SPACE          &kp UP              &kp DOWN              &kp LBKT          &kp RBKT          &mo 2
             >;
         };
 
