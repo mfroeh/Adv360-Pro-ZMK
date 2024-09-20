@@ -38,11 +38,11 @@
 
         default_layer {
             bindings = <
-&kp EQUAL         &kp N1     &kp N2      &kp N3        &kp N4        &kp N5  &tog 1                                                                      &mo 3      &kp N6  &kp N7         &kp N8         &kp N9    &kp N0         &kp MINUS
-&kp TAB           &kp Q      &kp W       &kp F         &kp P         &kp B   &none                                                                       &none      &kp J   &kp L          &kp U          &kp Y     &kp SEMICOLON  &kp BSLH
-&mt LCTRL ESCAPE  &kp A      &kp R       &kp S         &kp T         &kp G   &none     &kp LEFT_GUI  &kp LALT          &kp RIGHT_ALT  &kp RIGHT_COMMAND  &none      &kp M   &kp N          &kp E          &kp I     &kp O          &kp ENTER
-&kp LSHFT         &kp Z      &kp X       &kp C         &kp D         &kp V                           &kp HOME          &kp PG_UP                                    &kp K   &kp H          &kp COMMA      &kp DOT   &kp FSLH       &kp RSHFT
-&mo 2             &kp GRAVE  &caps_word  &kp LEFT_ALT  &kp LEFT_GUI          &kp BSPC  &lt 4 ESCAPE  &kp LEFT_GUI      &kp PG_DN      &lt 5 ENTER        &kp SPACE          &kp RIGHT_GUI  &kp RIGHT_ALT  &kp LBKT  &kp RBKT       &mo 2
+&kp EQUAL         &kp N1     &kp N2      &kp N3        &kp N4        &kp N5  &tog 1                                                                      &mo 3        &kp N6  &kp N7         &kp N8         &kp N9    &kp N0         &kp MINUS
+&kp TAB           &kp Q      &kp W       &kp F         &kp P         &kp B   &none                                                                       &none        &kp J   &kp L          &kp U          &kp Y     &kp SEMICOLON  &kp BSLH
+&mt LCTRL ESCAPE  &kp A      &kp R       &kp S         &kp T         &kp G   &none     &kp LEFT_GUI  &kp LALT          &kp RIGHT_ALT  &kp RIGHT_COMMAND  &none        &kp M   &kp N          &kp E          &kp I     &kp O          &kp ENTER
+&kp LSHFT         &kp Z      &kp X       &kp C         &kp D         &kp V                           &kp HOME          &kp PG_UP                                      &kp K   &kp H          &kp COMMA      &kp DOT   &kp FSLH       &kp RSHFT
+&mo 2             &kp GRAVE  &caps_word  &kp LEFT_ALT  &kp LEFT_GUI          &kp BSPC  &lt 4 ESCAPE  &kp LEFT_GUI      &kp PG_DN      &lt 5 ENTER        &lt 4 SPACE          &kp RIGHT_GUI  &kp RIGHT_ALT  &kp LBKT  &kp RBKT       &mo 2
             >;
         };
 
@@ -78,11 +78,11 @@
 
         Navigation {
             bindings = <
-&trans  &trans           &trans           &trans           &trans           &trans           &trans                                      &trans  &trans           &trans           &trans           &trans           &trans           &trans
-&trans  &trans           &trans           &trans           &trans           &trans           &trans                                      &trans  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &trans
-&trans  &kp KP_NUMBER_0  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp KP_NUMBER_4  &trans  &trans  &trans      &trans  &trans  &trans  &kp LEFT_ARROW   &kp DOWN         &kp UP           &kp RIGHT        &kp SEMI         &trans
-&trans  &trans           &trans           &trans           &trans           &trans                           &trans      &trans                  &trans           &trans           &trans           &trans           &trans           &trans
-&trans  &trans           &trans           &trans           &trans                            &trans  &trans  &trans      &trans  &trans  &trans                   &trans           &trans           &trans           &trans           &trans
+&trans  &trans           &trans           &trans    &trans    &trans     &trans                                      &trans  &trans           &trans           &trans           &trans           &trans           &trans
+&trans  &trans           &trans           &trans    &kp UP    &trans     &trans                                      &trans  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &trans
+&trans  &kp KP_NUMBER_0  &kp KP_NUMBER_1  &kp LEFT  &kp DOWN  &kp RIGHT  &trans  &trans  &trans      &trans  &trans  &trans  &kp LEFT_ARROW   &kp DOWN         &kp UP           &kp RIGHT        &kp SEMI         &trans
+&trans  &trans           &trans           &trans    &trans    &trans                     &trans      &trans                  &trans           &trans           &trans           &trans           &trans           &trans
+&trans  &trans           &trans           &trans    &trans               &trans  &trans  &trans      &trans  &trans  &trans                   &trans           &trans           &trans           &trans           &trans
             >;
         };
 
